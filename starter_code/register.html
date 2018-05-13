@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<form id="form" action="index.html" method="post">
+			<h1>Register Now</h1>
+			First name:
+				<input type="text" name="first-name">
+			Last name:
+				<input type="text" name="last-name"> <br>
+			Date of birth:
+				<input type="date" name="date-of-birth" value=""> <br>
+			State:
+				<select>
+					<option>VIC</option>
+					<option>NSW</option>
+					<option>QLD</option>
+					<option>WA</option>
+					<option>SA</option>
+					<option>NT</option>
+					<option>TAS</option>
+				</select><br>
+			Email address:
+				<input type="email" name="email-address">
+			Password:
+				<input type="password" name="password"> <br>
+			Which services are you interested in?
+				<span id="services-used">
+					Relaxing:
+						<input type="radio" name="services" value="Relaxing" checked>
+					Email:
+						<input type="radio" name="services" value="Email">
+					Phone:
+						<input type="radio" name="services" value="Phone">
+				</span> <br>
+				I agree to the terms:
+					<input type="radio" name="terms" value=""><br>
+			<input id="btn-submit"type="submit" value="Register Now!">
+		</form>
+		<!-- <section id="main">
+			<div class="container">
+				<section id="contact">
+					<input type="submit" value="Register Now!">
+				</section> -->
+			</div>
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
+</html>
